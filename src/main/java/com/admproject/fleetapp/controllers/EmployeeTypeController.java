@@ -18,6 +18,7 @@ import com.admproject.fleetapp.services.EmployeeTypeService;
 public class EmployeeTypeController {
 	
 	@Autowired private EmployeeTypeService employeeTypeService;
+	@PostMapping
 	
 	//Get All EmployeeTypes
 	@GetMapping("employeeTypes")
